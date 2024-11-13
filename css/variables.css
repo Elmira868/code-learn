@@ -1,6 +1,6 @@
 :root{
     --primary-font:'IRANSans';
-    --primary-color:'#04e762';
-    --white-color:'#fff';
-    --dark-color:'#464749'
+    --primary-color:#04e762;
+    --white-color:#fff;
+    --dark-color:#464749;
 }
