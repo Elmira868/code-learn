@@ -1,0 +1,46 @@
+/* Start Responsive Top-Bar */
+@media (320px <= width <= 480px) {
+  .top-bar {
+    display: none;
+  }
+}
+
+@media (481px <= width <= 768px) {
+  .top-bar {
+    padding: 0.5rem;
+  }
+  .top-bar__content {
+    padding: 0 0.5rem;
+  }
+  .top-bar__link {
+    font-size: 0.66rem;
+    padding: 0 0.5rem;
+  }
+
+  .top-bar__email-text,
+  .top-bar__phone-text {
+    padding: 0 0.5rem;
+    font-size: 0.66rem;
+  }
+
+  .top-bar__email-icon,
+  .top-bar__phone-icon {
+    font-size: 1rem;
+  }
+}
+
+@media (769px <= width <= 1024px) {
+    .top-bar__link{
+        font-size: 0.90rem;
+    }
+    .top-bar__email-text,
+.top-bar__phone-text{
+padding: 0 0.8rem;
+font-size: 0.90rem;
+}
+
+.top-bar__email-icon,
+.top-bar__phone-icon{
+    font-size: 0.90rem;
+}
+}
