@@ -1,7 +1,55 @@
-/* Start Responsive Top-Bar */
+
 @media (320px <= width <= 480px) {
   .top-bar {
     display: none;
+  }
+  /* Navbar */
+  .main-header__content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25rem;
+  }
+
+  .main-header__logo{
+    display: none;
+  }
+.main-header__bars-icon{
+display: flex;
+font-size: 0.90rem;
+}
+
+  .main-header__menu{
+    flex-direction: column;
+    font-size: 0.75rem;
+  }
+
+  .main-header__right{
+    display: none;
+  }
+
+  .main-header__left{
+    flex-direction: column;
+  }
+
+  .main-header__search-btn{
+width: 2.4rem;
+height: 2.4rem;
+margin-bottom: 1rem;
+  }
+
+  .main-header__cart-btn{
+    width: 2.4rem;
+height: 2.4rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+  }
+  .main-header__profile{
+    height: 2.2rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+  .main-header__profile-text{
+    font-size: 1rem;
   }
 }
 
@@ -27,20 +75,42 @@
   .top-bar__phone-icon {
     font-size: 1rem;
   }
+
+  /* Navbar */
+.main-header__logo{
+  display: none;
+}
+
+.main-header__menu{
+  font-size: 1rem;
+}
+
+  .main-header__left{
+    display: none;
+  }
 }
 
 @media (769px <= width <= 1024px) {
-    .top-bar__link{
-        font-size: 0.90rem;
-    }
-    .top-bar__email-text,
-.top-bar__phone-text{
-padding: 0 0.8rem;
-font-size: 0.90rem;
-}
+  .top-bar__link {
+    font-size: 0.9rem;
+  }
+  .top-bar__email-text,
+  .top-bar__phone-text {
+    padding: 0 0.8rem;
+    font-size: 0.9rem;
+  }
 
-.top-bar__email-icon,
-.top-bar__phone-icon{
-    font-size: 0.90rem;
-}
+  .top-bar__email-icon,
+  .top-bar__phone-icon {
+    font-size: 0.9rem;
+  }
+
+  /* Navbar */
+ .main-header__menu{
+  margin-right: 12rem;
+ }
+
+  .main-header__left{
+    display: none;
+  }
 }
