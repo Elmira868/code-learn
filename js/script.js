@@ -4,7 +4,7 @@ const course = [
     {image:'images/cousres/ai.webp', title:'دوره هوش مصنوعی', teacherName:'المیرا اجدیان', countStudents:450, price:1000000},
     {image:'images/cousres/istockphoto-1389287506-612x612.webp', title:'دوره صفر تا صد react', teacherName:'المیرا امجدیان', countStudents:400, price:2000000},
     {image:'images/cousres/javascript-736400_1280.png', title:'دوره صفر تا صد جاوا اسکریپت', teacherName:'المیرا امجدیان', countStudents:850, price:2500000},
-    {image:'images/cousres/node js.webp', title:'دوره صفر تا صد node js', teacherName:'المیرا امجدیان', countStudents:950, price:3000000},
+    {image:'images/cousres/node-js-736399_1280.png', title:'دوره صفر تا صد node js', teacherName:'المیرا امجدیان', countStudents:950, price:3000000},
     {image:'images/cousres/npm.webp', title:'دوره صفر تا صد npm', teacherName:'المیرا امجدیان', countStudents:1050, price:400000},
     {image:'images/cousres/sql.webp', title:'دوره صفر تا صد sql', teacherName:'المیرا امجدیان', countStudents:50, price:250000},
 ];
