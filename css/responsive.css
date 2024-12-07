@@ -103,6 +103,27 @@ margin-left: 10px;
   .courses-header__link{
     font-size: 1.2rem;
   }
+  /* Finish Course Header Responsive */
+
+  /* Start About Us Responsive */
+  .about-us__header{
+    display: none;
+  }
+
+/* About Us Left */
+.about-us__box-title{
+  font-size: 1.5rem;
+}
+
+.about-us__box-left{
+  font-size: 1.2rem;
+}
+
+/* About Us Right */
+.about-use__icon{
+  font-size: 2.5rem;
+}
+  /* Finish About Us Responsive */
 }
 
 @media (481px <= width <= 768px) {
@@ -171,6 +192,13 @@ margin-left: 10px;
   .landing-status__text{
     font-size: 1rem;
   }
+  /* Finish Status Responsive */
+
+  /* Start About Us Responsive */
+  .about-use__icon{
+    font-size: 3.5rem;
+  }
+  /* Finish About Us Responsive */
  
 }
 
@@ -198,4 +226,9 @@ margin-left: 10px;
     display: none;
   }
 
+  /* Start About Us Responsive */
+  .about-use__icon{
+    font-size: 4rem;
+  }
+  /* Finish About Us Responsive */
 }

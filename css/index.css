@@ -422,6 +422,31 @@ font-weight: bold;
     color: #9c9c9c;
     font-size: 1.5rem;
 }
+
+.about-us__box{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+    padding:  2rem 1.5rem;
+}
+
+.about-use__icon{
+    color: var(--primary-color);
+    font-size: 6.5rem;
+}
+
+.about-us__box-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.about-us__box-title{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
 /* Finish About Us Style */
 
 
