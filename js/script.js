@@ -179,3 +179,51 @@ aboutInfo.forEach((info) => {
     `
   );
 });
+
+const sliderContainer = document.querySelector('.swiper-wrapper')
+course.forEach((courseItem) => {
+  sliderContainer.insertAdjacentHTML('beforeend',
+   `
+    <div class="swiper-slide">
+          <div class="col-lg-4 col-md-6 col-sm-12 course-box__container">
+            <!-- محتویات هر اسلاید -->
+            <div>
+              <a href="#">
+                <img src="${courseItem.image}" alt="${courseItem.title}" class="course-box__image" />
+              </a>
+              <div class="course-box__main">
+                <a href="#" class="course-box__title">${courseItem.title}</a>
+                <div class="course-box__rating-teacher">
+                  <div class="course-box__teacher">
+                    <i class="fas fa-chalkboard-teacher course-box__teacher-icon"></i>
+                    <a href="#" class="course-box__teacher-link">${courseItem.teacherName}</a>
+                  </div>
+                  <div class="course-box__rating">
+                    <img src="./images/svg/star.svg" alt="star rating" class="course-box__star" />
+                    <img src="./images/svg/star_fill.svg" alt="star rating" class="course-box__star" />
+                    <img src="./images/svg/star_fill.svg" alt="star rating" class="course-box__star" />
+                    <img src="./images/svg/star_fill.svg" alt="star rating" class="course-box__star" />
+                    <img src="./images/svg/star_fill.svg" alt="star rating" class="course-box__star" />
+                  </div>
+                </div>
+                <div class="course-box__status">
+                  <div class="course-box__users">
+                    <i class="fas fa-users course-box__users-icon"></i>
+                    <span class="course-box__users-text">${courseItem.countStudents}</span>
+                  </div>
+                  <span class="course-box__price">${courseItem.price}</span>
+                </div>
+              </div>
+              <div class="course-box__footer">
+                <a href="#" class="course-box__footer-link">
+                  مشاهده اطلاعات
+                  <i class="fas fa-arrow-left course-box__footer-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+   `
+       
+  );
+});
