@@ -180,10 +180,12 @@ aboutInfo.forEach((info) => {
   );
 });
 
-const sliderContainer = document.querySelector('.swiper-wrapper')
+// Popular Slider
+const sliderContainer = document.querySelector(".swiper-wrapper");
 course.forEach((courseItem) => {
-  sliderContainer.insertAdjacentHTML('beforeend',
-   `
+  sliderContainer.insertAdjacentHTML(
+    "beforeend",
+    `
     <div class="swiper-slide">
           <div class="col-lg-4 col-md-6 col-sm-12 course-box__container">
             <!-- محتویات هر اسلاید -->
@@ -224,6 +226,70 @@ course.forEach((courseItem) => {
           </div>
         </div>
    `
-       
+  );
+});
+
+// Create Articles
+const articlesContainer = document.querySelector(".articles-row");
+const articles = [
+  {
+    title: "لورم ایپسوم متن ساختگی با",
+    text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و",
+    img: "./images/Articles/Aricle-2.png",
+  },
+  {
+    title: "لورم ایپسوم متن ساختگی با",
+    text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و",
+    img: "./images/Articles/Article-1.png",
+  },
+  {
+    title: "لورم ایپسوم متن ساختگی با",
+    text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و",
+    img: "./images/Articles/Article-3.png",
+  },
+  {
+    title: "لورم ایپسوم متن ساختگی با",
+    text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و",
+    img: "./images/Articles/Article-4.png",
+  },
+  {
+    title: "لورم ایپسوم متن ساختگی با",
+    text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و",
+    img: "./images/Articles/Article-5.png",
+  },
+  {
+    title: "لورم ایپسوم متن ساختگی با",
+    text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و",
+    img: "./images/Articles/Article-6.png",
+  },
+];
+
+articles.forEach((article) => {
+  articlesContainer.insertAdjacentHTML(
+    "beforeend",
+    `
+    <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="article-card">
+                <!-- Article Card Header -->
+                <div class="article-card__header">
+                  <a href="#" class="article-card__link-img">
+                    <img
+                      src="${article.img}"
+                      alt="Article"
+                      class="article-card__header-img"
+                    />
+                  </a>
+                </div>
+                <!-- Article Contents -->
+                <div class="article-card__contents">
+                  <a href="#" class="article-card__link">${article.title}</a>
+                  <p class="article-card__text">
+                    ${article.text}
+                  </p>
+                  <a href="#" class="article-card__btn">بیشتر بخوانید</a>
+                </div>
+              </div>
+            </div>
+    `
   );
 });

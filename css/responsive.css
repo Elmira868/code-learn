@@ -133,6 +133,26 @@ margin-left: 10px;
   display: none !important;
  }
   /* Finish Popular Slider Responsive */
+
+  /* Start Article Responsive */
+
+  .courses-header{
+    display: none;
+  }
+
+  .article-card__header-img{
+width: 100%;
+  }
+
+  .article-card__link {
+    font-size: 1.3rem;
+  }
+
+  .article-card__btn{
+    font-size: 1.1rem;
+  }
+
+  /* Finish Article Responsive */
 }
 
 @media (481px <= width <= 768px) {
@@ -218,6 +238,11 @@ margin-left: 10px;
   }
   /* Finish Popular Slider Responsive */
  
+  /* Start Article Responsive */
+  .article-card__header-img{
+    width: 100%;
+  }
+  /* Finish Article Responsive */
 }
 
 @media (769px <= width <= 1024px) {
