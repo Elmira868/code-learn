@@ -53,6 +53,8 @@ margin-left: 10px;
   .main-header__profile{
     height: 2.2rem;
     margin-top: 1rem;
+    padding: 1rem;
+    width: 7rem;
   }
   .main-header__profile-text{
     font-size: 0.75rem;
@@ -70,6 +72,10 @@ margin-left: 10px;
 
    .landing__searchbar-input{
     height: 2rem;
+   }
+
+   .landing__searchbar-input::placeholder{
+    font-size: 1rem;
    }
 
    .landing__searchbar-btn{
@@ -153,6 +159,25 @@ width: 100%;
   }
 
   /* Finish Article Responsive */
+
+  /* Start Footer Responsive */
+  .footer-widgets__text {
+    font-size: 1.4rem;
+  }
+
+  .footer-widgets__items{
+    margin-top: 2rem;
+  }
+
+  .footer-widgets__link{
+    font-size: 1.4rem;
+  }
+
+  .footer__copyRight-text {
+text-align: center;
+font-size: 1.2rem;
+  }
+  /* Finish Footer Responsive */
 }
 
 @media (481px <= width <= 768px) {
@@ -192,6 +217,10 @@ width: 100%;
   }
   /* Finish Navbar Status */
 
+  .courses-header__link{
+font-size: 1.3rem;
+  }
+
   /* Start Status Responsive */
   .landing__title{
     margin-top: 3rem;
@@ -205,6 +234,11 @@ width: 100%;
   .landing__searchbar-input{
     height: 2.5rem;
   }
+
+  .landing__searchbar-input::placeholder{
+    font-size: 1.2rem;
+  }
+
   .landing__searchbar-btn{
     font-size: 1rem;
     padding: 0.4rem;
@@ -227,6 +261,9 @@ width: 100%;
   .about-use__icon{
     font-size: 3.5rem;
   }
+  .title{
+    font-size: 1.7rem;
+  }
   /* Finish About Us Responsive */
 
   /* Start Popular Slider Responsive */
@@ -243,6 +280,12 @@ width: 100%;
     width: 100%;
   }
   /* Finish Article Responsive */
+
+  /* Start Footer Responsive */
+  .footer-widgets__items{
+    margin-top: 2rem;
+  }
+  /* Finish Footer Responsive */
 }
 
 @media (769px <= width <= 1024px) {
@@ -283,4 +326,42 @@ width: 100%;
     display: none !important;
   }
   /* Finish Popular Slider Responsive */
+
+  /* Start Footer Responsive */
+.footer-widgets__items{
+  margin-top: 2rem;
+}
+
+  .footer-widgets::before{
+    content: '';
+    position: absolute;
+    right: 0;
+  left: 0;
+  margin: 0 auto;
+  height: 4rem;
+  width: 50rem;
+  background-color: var(--primary-color);
+  bottom: -1rem;
+  z-index: -1;
+  border-radius: 5rem;
+  }
+  /* Finish Footer Responsive */
+}
+
+@media (1025px <= width <= 1400px) {
+  /* Start Footer Responsive */
+  .footer-widgets::before{
+    content: '';
+    position: absolute;
+    right: 0;
+  left: 0;
+  margin: 0 auto;
+  height: 4rem;
+  width: 50rem;
+  background-color: var(--primary-color);
+  bottom: -1rem;
+  z-index: -1;
+  border-radius: 5rem;
+  }
+  /* Finish Footer Responsive */
 }
